@@ -2,18 +2,19 @@
     box-sizing: border-box;
   }
   
-  body, html {
-    height: 100%;
-    padding: 0;
-    margin: 0;
-    font-family: sans-serif;
-    color: #333;
-  }
+  body {
+    background-color: #bddbc8;
+    font-size: 1.5rem;
+    color: #784c0e;
+
+    
+  } 
  
   
   a {
     text-decoration: none;
-    color: #225ca3;
+    font-size: x-large;
+    color: #784c0e;
     font-weight: bold;
     transition: color .1s;
   }
@@ -38,6 +39,7 @@
   }
   
   .post-list {
+    
     margin: 0;
     padding: 0;
   }
@@ -84,14 +86,18 @@
   }
   
   header h1 {
-    font-size: 1em;
-    color: rgb(50, 18, 4);
+    font-size: 3rem;
+    color: #784c0e;
+    line-height: 1.50;
+  
   }
   
   main {
     flex: 1;
     padding: 2% 4%;
   }
+
+  
   
   .btn-no-style {
     background: none;
@@ -99,7 +105,7 @@
     padding: 0;
     cursor: pointer;
     text-decoration: none;
-    color: #225ca3;
+    color: #784c0e;
     font-size: 100%;
     font-weight: bold;
     transition: color .1s;
